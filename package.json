@@ -1,0 +1,23 @@
+{
+  "name": "mongo_livraria",
+  "version": "1.0.0",
+  "description": "Projeto para revisar os conceitos de backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "backend",
+    "livraria"
+  ],
+  "author": "Cris Sansi",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
